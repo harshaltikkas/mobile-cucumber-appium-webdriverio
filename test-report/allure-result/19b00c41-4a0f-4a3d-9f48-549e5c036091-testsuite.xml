@@ -1,0 +1,304 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634211921902' stop='1634211941797'>
+    <name>Form validations</name>
+    <title>Form validations</title>
+    <test-cases>
+        <test-case start='1634211921911' status='passed' stop='1634211925297'>
+            <name>Type in the text field</name>
+            <title>Type in the text field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1634211921915' status='passed' stop='1634211923244'>
+                    <name>Given I'm on the forms screen</name>
+                    <title>Given I'm on the forms screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211923244' status='passed' stop='1634211924392'>
+                    <name>When I type 'Text for the type test' in the text box</name>
+                    <title>When I type 'Text for the type test' in the text box</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211924393' status='passed' stop='1634211925295'>
+                    <name>Then the text that was typed is displayed</name>
+                    <title>Then the text that was typed is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1634211925297' status='passed' stop='1634211926493'>
+            <name>Enable and disable the switch button</name>
+            <title>Enable and disable the switch button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1634211925298' status='passed' stop='1634211925593'>
+                    <name>Given I'm on the forms screen</name>
+                    <title>Given I'm on the forms screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211925593' status='passed' stop='1634211925693'>
+                    <name>When the switch button is in the disabled state</name>
+                    <title>When the switch button is in the disabled state</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211925693' status='passed' stop='1634211925842'>
+                    <name>And I click on the switch button</name>
+                    <title>And I click on the switch button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211925843' status='passed' stop='1634211926492'>
+                    <name>Then the switch button is in the activated state</name>
+                    <title>Then the switch button is in the activated state</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1634211926493' status='passed' stop='1634211932843'>
+            <name>Select options from a Dropdown list</name>
+            <title>Select options from a Dropdown list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1634211926494' status='passed' stop='1634211926843'>
+                    <name>Given I'm on the forms screen</name>
+                    <title>Given I'm on the forms screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211926843' status='passed' stop='1634211928793'>
+                    <name>When I select the 'This app is awesome' option from the list</name>
+                    <title>When I select the 'This app is awesome' option from the list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211928793' status='passed' stop='1634211928943'>
+                    <name>Then the Dropdown text 'This app is awesome' is displayed</name>
+                    <title>Then the Dropdown text 'This app is awesome' is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211928943' status='passed' stop='1634211930743'>
+                    <name>When I select the 'webdriver.io is awesome' option from the list</name>
+                    <title>When I select the 'webdriver.io is awesome' option from the list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211930743' status='passed' stop='1634211930892'>
+                    <name>Then the Dropdown text 'webdriver.io is awesome' is displayed</name>
+                    <title>Then the Dropdown text 'webdriver.io is awesome' is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211930892' status='passed' stop='1634211932693'>
+                    <name>When I select the 'Appium is awesome' option from the list</name>
+                    <title>When I select the 'Appium is awesome' option from the list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211932693' status='passed' stop='1634211932842'>
+                    <name>Then the Dropdown text 'Appium is awesome' is displayed</name>
+                    <title>Then the Dropdown text 'Appium is awesome' is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1634211932844' status='passed' stop='1634211935599'>
+            <name>Open the activation alert and close it with the Ask me later button</name>
+            <title>Open the activation alert and close it with the Ask me later button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1634211932844' status='passed' stop='1634211933143'>
+                    <name>Given I'm on the forms screen</name>
+                    <title>Given I'm on the forms screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211933143' status='passed' stop='1634211934244'>
+                    <name>When I click the activate button</name>
+                    <title>When I click the activate button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211934244' status='passed' stop='1634211934543'>
+                    <name>Then the app displays the activated alert</name>
+                    <title>Then the app displays the activated alert</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211934543' status='passed' stop='1634211934743'>
+                    <name>And I click on the option 'Ask me later'</name>
+                    <title>And I click on the option 'Ask me later'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211934743' status='passed' stop='1634211935598'>
+                    <name>Then the app hide the activated alert</name>
+                    <title>Then the app hide the activated alert</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1634211935599' status='passed' stop='1634211938195'>
+            <name>Open the activation alert and close it with the Cancel button</name>
+            <title>Open the activation alert and close it with the Cancel button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1634211935600' status='passed' stop='1634211936043'>
+                    <name>Given I'm on the forms screen</name>
+                    <title>Given I'm on the forms screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211936043' status='passed' stop='1634211937094'>
+                    <name>When I click the activate button</name>
+                    <title>When I click the activate button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211937094' status='passed' stop='1634211937293'>
+                    <name>Then the app displays the activated alert</name>
+                    <title>Then the app displays the activated alert</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211937293' status='passed' stop='1634211937443'>
+                    <name>And I click on the option 'Cancel'</name>
+                    <title>And I click on the option 'Cancel'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211937443' status='passed' stop='1634211938194'>
+                    <name>Then the app hide the activated alert</name>
+                    <title>Then the app hide the activated alert</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1634211938196' status='passed' stop='1634211940745'>
+            <name>Open the activation alert and close it with the OK button</name>
+            <title>Open the activation alert and close it with the OK button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1634211938196' status='passed' stop='1634211938544'>
+                    <name>Given I'm on the forms screen</name>
+                    <title>Given I'm on the forms screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211938544' status='passed' stop='1634211939600'>
+                    <name>When I click the activate button</name>
+                    <title>When I click the activate button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211939600' status='passed' stop='1634211939893'>
+                    <name>Then the app displays the activated alert</name>
+                    <title>Then the app displays the activated alert</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211939893' status='passed' stop='1634211939993'>
+                    <name>And I click on the option 'OK'</name>
+                    <title>And I click on the option 'OK'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211939993' status='passed' stop='1634211940744'>
+                    <name>Then the app hide the activated alert</name>
+                    <title>Then the app hide the activated alert</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1634211940746' status='passed' stop='1634211941796'>
+            <name>Determine that the inactive button is inactive</name>
+            <title>Determine that the inactive button is inactive</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1634211940747' status='passed' stop='1634211941093'>
+                    <name>Given I'm on the forms screen</name>
+                    <title>Given I'm on the forms screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211941093' status='passed' stop='1634211941553'>
+                    <name>When I click the Inactive button</name>
+                    <title>When I click the Inactive button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634211941553' status='passed' stop='1634211941795'>
+                    <name>Then the button does nothing</name>
+                    <title>Then the button does nothing</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

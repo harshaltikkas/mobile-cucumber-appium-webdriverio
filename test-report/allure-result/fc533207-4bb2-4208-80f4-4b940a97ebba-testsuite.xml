@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634234939388' stop='1634234939405'>
+    <name>Login validations &amp; Forgot password</name>
+    <title>Login validations &amp; Forgot password</title>
+    <test-cases>
+        <test-case start='1634234939395' status='broken' stop='1634234939399'>
+            <name>Displays Inline error message when clicking on Continue button without entering credentials</name>
+            <title>Displays Inline error message when clicking on Continue button without entering credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='88MX01NAS-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1634234939398' status='broken' stop='1634234939399'>
+                    <name>Given I am on the username screen</name>
+                    <title>Given I am on the username screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634234939399' status='broken' stop='1634234939399'>
+                    <name>When I click on 'Continue' button</name>
+                    <title>When I click on 'Continue' button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634234939399' status='broken' stop='1634234939399'>
+                    <name>Then app should displays 'This field is required' inline error message</name>
+                    <title>Then app should displays 'This field is required' inline error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "Then app should displays 'This field is required' inline error message" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>undefined:undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1634234939401' status='broken' stop='1634234939403'>
+            <name>if enter valid credentials it should displays app dashboard,</name>
+            <title>if enter valid credentials it should displays app dashboard,</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='88MX01NAS-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1634234939402' status='broken' stop='1634234939402'>
+                    <name>Given I am on the username screen</name>
+                    <title>Given I am on the username screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634234939402' status='broken' stop='1634234939402'>
+                    <name>When I enter 'htikkas' in username field</name>
+                    <title>When I enter 'htikkas' in username field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634234939402' status='broken' stop='1634234939403'>
+                    <name>And I click on 'Continue' button</name>
+                    <title>And I click on 'Continue' button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634234939403' status='broken' stop='1634234939403'>
+                    <name>And I enter 'Snap@123' in password field</name>
+                    <title>And I enter 'Snap@123' in password field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634234939403' status='broken' stop='1634234939403'>
+                    <name>And I click on 'Sign in' button</name>
+                    <title>And I click on 'Sign in' button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634234939403' status='broken' stop='1634234939403'>
+                    <name>Then app should displays 'Hello htikkas' on dashboard</name>
+                    <title>Then app should displays 'Hello htikkas' on dashboard</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "Then app should displays 'Hello htikkas' on dashboard" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>undefined:undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,14 @@
+2021-11-29T05:23:07.952Z DEBUG @wdio/utils:initialiseServices: initialise wdio service "appium"
+2021-11-29T05:23:07.954Z ERROR @wdio/utils:initialiseServices: Error: Couldn't find plugin "appium" service, neither as wdio scoped package "@wdio/appium-service" nor as community package "wdio-appium-service". Please make sure you have it installed!
+    at initialisePlugin (/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/node_modules/@wdio/cli/node_modules/@wdio/utils/build/initialisePlugin.js:32:9)
+    at initialiseServices (/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/node_modules/@wdio/cli/node_modules/@wdio/utils/build/initialiseServices.js:47:53)
+    at Launcher.run (/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/node_modules/@wdio/cli/build/launcher.js:70:54)
+    at launch (/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/node_modules/@wdio/cli/build/commands/run.js:138:19)
+    at handler (/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/node_modules/@wdio/cli/build/commands/run.js:171:12)
+    at Object.run (/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/node_modules/@wdio/cli/build/index.js:47:29)
+    at Object.<anonymous> (/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/node_modules/@wdio/cli/bin/wdio.js:11:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2021-11-29T05:23:07.955Z INFO @wdio/cli:launcher: Run onPrepare hook
+2021-11-29T05:24:08.514Z INFO @wdio/cli:launcher: Run onComplete hook

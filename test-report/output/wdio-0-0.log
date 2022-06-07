@@ -1,0 +1,1694 @@
+2021-11-29T05:23:08.312Z INFO @wdio/local-runner: Run worker command: run
+2021-11-29T05:23:08.547Z DEBUG @wdio/2021-11-29T05:24:08.514Z DEBUG @wdio/local-runner: Runner 0-0 finished with exit code 1
+2021-11-29T05:24:08.515Z INFO @wdio/local-runner: Shutting down spawned worker
+2021-11-29T05:24:08.768Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+er: DATA {
+  capabilities: {
+    alwaysMatch: {
+      platformName: 'Android',
+      'appium:deviceName': 'Pixel_3a',
+      'appium:platformVersion': '11',
+      'appium:orientation': 'PORTRAIT',
+      'appium:automationName': 'UiAutomator2',
+      'appium:app': '/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/apps/Android-NativeDemoApp-0.4.0.apk',
+      'appium:noReset': true,
+      'appium:fullReset': false,
+      'appium:dontStopAppOnReset': true,
+      'appium:newCommandTimeout': 10,
+      appWaitActivity: 'com.wdiodemoapp.MainActivity'
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    platformName: 'Android',
+    'appium:deviceName': 'Pixel_3a',
+    'appium:platformVersion': '11',
+    'appium:orientation': 'PORTRAIT',
+    'appium:automationName': 'UiAutomator2',
+    'appium:app': '/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/apps/Android-NativeDemoApp-0.4.0.apk',
+    'appium:noReset': true,
+    'appium:fullReset': false,
+    'appium:dontStopAppOnReset': true,
+    'appium:newCommandTimeout': 10,
+    appWaitActivity: 'com.wdiodemoapp.MainActivity'
+  }
+}
+2021-11-29T05:23:23.317Z INFO webdriver: COMMAND findElement("accessibility id", "skip-test-key")
+2021-11-29T05:23:23.317Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:23.317Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:23.368Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:23.376Z DEBUG webdriverio: command click was called on an element ("~skip-test-key") that wasn't found, waiting for it...
+2021-11-29T05:23:23.378Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:23.378Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:23.378Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:23.402Z INFO webdriver: RESULT []
+2021-11-29T05:23:23.881Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:23.882Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:23.882Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:24.817Z INFO webdriver: RESULT []
+2021-11-29T05:23:24.819Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:24.819Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:24.819Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:24.855Z INFO webdriver: RESULT []
+2021-11-29T05:23:24.882Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:24.882Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:24.882Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:24.937Z INFO webdriver: RESULT []
+2021-11-29T05:23:25.378Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:25.378Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:25.378Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:25.410Z INFO webdriver: RESULT []
+2021-11-29T05:23:25.880Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:25.880Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:25.880Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:25.973Z INFO webdriver: RESULT []
+2021-11-29T05:23:26.382Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:26.382Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:26.382Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:26.410Z INFO webdriver: RESULT []
+2021-11-29T05:23:26.882Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:26.882Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:26.882Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:26.921Z INFO webdriver: RESULT []
+2021-11-29T05:23:27.382Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:27.382Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:27.382Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:27.412Z INFO webdriver: RESULT []
+2021-11-29T05:23:27.882Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:27.882Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:27.882Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:27.936Z INFO webdriver: RESULT []
+2021-11-29T05:23:28.377Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:28.378Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:28.378Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:28.406Z INFO webdriver: RESULT []
+2021-11-29T05:23:28.881Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:28.882Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:28.882Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:28.913Z INFO webdriver: RESULT []
+2021-11-29T05:23:29.386Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:29.386Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:29.386Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:29.415Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:29.419Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:29.419Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:29.419Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:29.448Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:29.920Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:29.920Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:29.920Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:29.952Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:30.421Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:30.421Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:30.421Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:30.452Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:30.923Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:30.923Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:30.923Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:30.951Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:31.423Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:31.423Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:31.423Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:31.454Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:31.922Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:31.922Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:31.922Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:31.957Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:32.421Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:32.421Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:32.421Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:32.454Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:32.921Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:32.922Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:32.922Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:32.951Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:33.423Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:33.423Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:33.423Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:33.450Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:33.923Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:33.923Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:33.923Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:33.957Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:34.423Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:34.424Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:34.424Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:34.524Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:34.923Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:34.923Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:34.924Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:34.995Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:35.420Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:35.420Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:35.420Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:35.472Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:35.923Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:35.923Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:35.923Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:35.971Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:36.423Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:36.423Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:36.423Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:36.468Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:36.923Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:36.923Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:36.923Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:36.968Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:37.420Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:37.421Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:37.421Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:37.470Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:37.923Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:37.925Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:37.925Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:37.968Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:38.419Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:38.419Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:38.419Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:38.457Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:38.923Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:38.923Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:38.923Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:38.957Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:39.423Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:39.423Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:39.423Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:39.451Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:39.924Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:39.924Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:39.924Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:39.952Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:40.426Z INFO webdriver: COMMAND takeScreenshot()
+2021-11-29T05:23:40.426Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/screenshot
+2021-11-29T05:23:40.799Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6...
+2021-11-29T05:23:40.805Z INFO webdriver: COMMAND findElement("accessibility id", "skip-test-key")
+2021-11-29T05:23:40.806Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:40.806Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:40.836Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:40.837Z DEBUG webdriverio: command click was called on an element ("~skip-test-key") that wasn't found, waiting for it...
+2021-11-29T05:23:40.838Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:40.838Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:40.838Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:40.868Z INFO webdriver: RESULT []
+2021-11-29T05:23:41.340Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:41.341Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:41.341Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:41.370Z INFO webdriver: RESULT []
+2021-11-29T05:23:41.843Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:41.843Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:41.843Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:41.879Z INFO webdriver: RESULT []
+2021-11-29T05:23:42.341Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:42.341Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:42.341Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:42.365Z INFO webdriver: RESULT []
+2021-11-29T05:23:42.842Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:42.843Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:42.843Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:42.868Z INFO webdriver: RESULT []
+2021-11-29T05:23:43.343Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:43.343Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:43.343Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:43.367Z INFO webdriver: RESULT []
+2021-11-29T05:23:43.841Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:43.841Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:43.841Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:43.866Z INFO webdriver: RESULT []
+2021-11-29T05:23:44.343Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:44.344Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:44.344Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:44.368Z INFO webdriver: RESULT []
+2021-11-29T05:23:44.843Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:44.843Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:44.843Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:44.867Z INFO webdriver: RESULT []
+2021-11-29T05:23:45.343Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:45.343Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:45.343Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:45.370Z INFO webdriver: RESULT []
+2021-11-29T05:23:45.840Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:45.840Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:45.840Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:45.863Z INFO webdriver: RESULT []
+2021-11-29T05:23:46.343Z INFO webdriver: COMMAND findElements("accessibility id", "skip-test-key")
+2021-11-29T05:23:46.343Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/elements
+2021-11-29T05:23:46.343Z INFO webdriver: DATA { using: 'accessibility id', value: 'skip-test-key' }
+2021-11-29T05:23:46.367Z INFO webdriver: RESULT []
+2021-11-29T05:23:46.844Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:46.844Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:46.844Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:46.871Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:46.873Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:46.873Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:46.873Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:46.896Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:47.377Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:47.378Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:47.378Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:47.404Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:47.877Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:47.877Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:47.877Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:47.901Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:48.377Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:48.377Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:48.377Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:48.398Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:48.877Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:48.877Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:48.877Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:48.901Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:49.379Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:49.379Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:49.379Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:49.402Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:49.878Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:49.878Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:49.878Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:49.904Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:50.377Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:50.377Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:50.378Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:50.403Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:50.877Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:50.877Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:50.877Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:50.903Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:51.377Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:51.377Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:51.377Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:51.405Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:51.877Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:51.877Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:51.877Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:51.906Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:52.377Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:52.377Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:52.377Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:52.405Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:52.877Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:52.877Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:52.877Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:52.904Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:53.378Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:53.378Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:53.378Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:53.403Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:53.877Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:53.877Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:53.877Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:53.904Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:54.377Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:54.377Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:54.377Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:54.408Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:54.877Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:54.877Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:54.877Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:54.903Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:55.377Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:55.377Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:55.377Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:55.405Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:55.877Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:55.877Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:55.877Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:55.906Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:56.377Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:56.377Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:56.377Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:56.407Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:56.877Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:56.877Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:56.877Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:56.905Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:57.378Z INFO webdriver: COMMAND findElement("accessibility id", "welcome-label")
+2021-11-29T05:23:57.378Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/element
+2021-11-29T05:23:57.378Z INFO webdriver: DATA { using: 'accessibility id', value: 'welcome-label' }
+2021-11-29T05:23:57.405Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:85:5)'
+}
+2021-11-29T05:23:57.878Z INFO webdriver: COMMAND takeScreenshot()
+2021-11-29T05:23:57.879Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/screenshot
+2021-11-29T05:23:58.146Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6...
+2021-11-29T05:23:58.160Z INFO webdriver: COMMAND getLogTypes()
+2021-11-29T05:23:58.160Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/log/types
+2021-11-29T05:23:58.163Z INFO webdriver: RESULT [ 'logcat', 'bugreport', 'server' ]
+2021-11-29T05:23:58.164Z DEBUG @wdio/runner: Fetching logs for logcat, bugreport, server
+2021-11-29T05:23:58.164Z INFO webdriver: COMMAND getLogs("logcat")
+2021-11-29T05:23:58.164Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/log
+2021-11-29T05:23:58.164Z INFO webdriver: DATA { type: 'logcat' }
+2021-11-29T05:23:58.164Z INFO webdriver: COMMAND getLogs("server")
+2021-11-29T05:23:58.164Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/log
+2021-11-29T05:23:58.164Z INFO webdriver: DATA { type: 'server' }
+2021-11-29T05:23:58.165Z INFO webdriver: COMMAND getLogs("bugreport")
+2021-11-29T05:23:58.165Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/log
+2021-11-29T05:23:58.165Z INFO webdriver: DATA { type: 'bugreport' }
+2021-11-29T05:23:58.403Z INFO webdriver: RESULT [
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat riw.a(PG:43)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat rit.a(PG:47)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat com.google.android.apps.messaging.shared.receiver.RcsProvisioningEventReceiver.a(PG:29)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat kkt.onReceive(PG:31)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat kjs.onReceive(PG:7)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ActivityThread.handleReceiver(ActivityThread.java:4032)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ActivityThread.access$1400(ActivityThread.java:237)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1924)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.os.Handler.dispatchMessage(Handler.java:106)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.os.Looper.loop(Looper.java:223)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ActivityThread.main(ActivityThread.java:7656)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat java.lang.reflect.Method.invoke(Native Method)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting RcsProfileService'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.profile.IRcsProfile: Service not registered: aeed@49a0d55'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@49a0d55'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ContextImpl.unbindService(ContextImpl.java:1874)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.content.ContextWrapper.unbindService(ContextWrapper.java:792)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat aeec.b(PG:43)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat aeec.disconnect(PG:41)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat koc.b(PG:42)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat kof.a(PG:38)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat riw.a(PG:43)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat rit.a(PG:47)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat com.google.android.apps.messaging.shared.receiver.RcsProvisioningEventReceiver.a(PG:29)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat kkt.onReceive(PG:31)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat kjs.onReceive(PG:7)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ActivityThread.handleReceiver(ActivityThread.java:4032)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ActivityThread.access$1400(ActivityThread.java:237)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1924)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.os.Handler.dispatchMessage(Handler.java:106)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.os.Looper.loop(Looper.java:223)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ActivityThread.main(ActivityThread.java:7656)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat java.lang.reflect.Method.invoke(Native Method)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting BusinessInfoService'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.businessinfo.IBusinessInfo: Service not registered: aeed@cdab05b'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@cdab05b'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ContextImpl.unbindService(ContextImpl.java:1874)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.content.ContextWrapper.unbindService(ContextWrapper.java:792)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat aeec.b(PG:43)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat aeec.disconnect(PG:41)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat koc.b(PG:43)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat kof.a(PG:38)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat riw.a(PG:43)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat rit.a(PG:47)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat com.google.android.apps.messaging.shared.receiver.RcsProvisioningEventReceiver.a(PG:29)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat kkt.onReceive(PG:31)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat kjs.onReceive(PG:7)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ActivityThread.handleReceiver(ActivityThread.java:4032)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ActivityThread.access$1400(ActivityThread.java:237)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1924)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.os.Handler.dispatchMessage(Handler.java:106)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.os.Looper.loop(Looper.java:223)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat android.app.ActivityThread.main(ActivityThread.java:7656)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat java.lang.reflect.Method.invoke(Native Method)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.173  3070  3070 W RcsClientLib: \tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting RcsMessagingService'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  2735  3321 I CarrierServices: [274] dtf.c: Bugle is default SMS app: true'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: Unexpected error when trying to unbind com.google.android.rcs.client.messaging.IMessaging: Service not registered: aeed@73b29d1'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@73b29d1'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat android.app.ContextImpl.unbindService(ContextImpl.java:1874)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat android.content.ContextWrapper.unbindService(ContextWrapper.java:792)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat aeec.b(PG:43)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat aeec.disconnect(PG:41)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat koc.b(PG:44)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat kof.a(PG:38)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat riw.a(PG:43)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat rit.a(PG:47)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat com.google.android.apps.messaging.shared.receiver.RcsProvisioningEventReceiver.a(PG:29)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat kkt.onReceive(PG:31)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat kjs.onReceive(PG:7)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat android.app.ActivityThread.handleReceiver(ActivityThread.java:4032)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat android.app.ActivityThread.access$1400(ActivityThread.java:237)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1924)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat android.os.Handler.dispatchMessage(Handler.java:106)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat android.os.Looper.loop(Looper.java:223)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat android.app.ActivityThread.main(ActivityThread.java:7656)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat java.lang.reflect.Method.invoke(Native Method)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: \tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 I BugleRcsEngine: [2] aeec.disconnect: Disconnecting TransportControlService'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.175  2735  3321 I CarrierServices: [274] dvk.a: Using config server URL from cqx'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.175  2735  3321 I CarrierServices: [274] ekb.b: Checking if using CarrierServices.apk is possible. Enabled: true, isAtLeastM: true, runningInsideBugle: false'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.176  2735  3321 I CarrierServices: [274] chn.h: BindingManager: binding and reset P/H Flag stay same'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.176  2735  3321 I CarrierServices: [274] dsd.a: RcsAvailabilityManager: Rcs Availability still CARRIER_SETUP_PENDING (Carrier RCS is not set up)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.174  3070  3070 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.transportcontrol.ITransportControl: Service not registered: aeed@19b34a4'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.176  2735  3321 I CarrierServices: [274] drv.a: (PEv2-SM): transitionTo: destState=EnabledState'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.176  3070  3070 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: aeed@19b34a4'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.176  3070  3070 W RcsClientLib: \tat android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.176  3070  3070 W RcsClientLib: \tat android.app.ContextImpl.unbindService(ContextImpl.java:1874)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.176  3070  3070 W RcsClientLib: \tat android.content.ContextWrapper.unbindService(ContextWrapper.java:792)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.176  3070  3070 W RcsClientLib: \tat aeec.b(PG:43)'
+  },
+  {
+    timestamp: 1638163389525,
+    level: 'ALL',
+    message: '10-25 13:29:32.176  3070  3070 W RcsClientLib: \tat aeec.disconnect(PG:41)'
+  },
+  ... 9900 more items
+]
+2021-11-29T05:23:58.442Z INFO webdriver: RESULT [
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[Appium] Welcome to Appium v1.21.0'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[Appium] Non-default server args:'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[Appium]   relaxedSecurityEnabled: true'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[Appium]   allowInsecure: {'
+  },
+  { timestamp: 1638163438387, level: 'ALL', message: '[Appium]   }' },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[Appium]   denyInsecure: {'
+  },
+  { timestamp: 1638163438387, level: 'ALL', message: '[Appium]   }' },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[Appium] Appium REST http interface listener started on 0.0.0.0:4723'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[HTTP] \x1B[37m-->\x1B[39m \x1B[37mPOST\x1B[39m \x1B[37m/wd/hub/session\x1B[39m'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[HTTP] \x1B[90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel_3a","appium:platformVersion":"11","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/apps/app-release.apk","appium:noReset":true,"appium:fullReset":false,"appium:dontStopAppOnReset":true,"appium:newCommandTimeout":10,"appWaitActivity":"com.snapfinance.snap.MainActivity"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Pixel_3a","appium:platformVersion":"11","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/apps/app-release.apk","appium:noReset":true,"appium:fullReset":false,"appium:dontStopAppOnReset":true,"appium:newCommandTimeout":10,"appWaitActivity":"com.snapfinance.snap.MainActivity"}}\x1B[39m'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Pixel_3a","appium:platformVersion":"11","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/apps/app-release.apk","appium:noReset":true,"appium:fullReset":false,"appium:dontStopAppOnReset":true,"appium:newCommandTimeout":10,"appWaitActivity":"com.snapfinance.snap.MainActivity"},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel_3a","appium:platformVersion":"11","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/apps/app-release.apk","appium:noReset":true,"appium:fullReset":false,"appium:dontStopAppOnReset":true,"appium:newCommandTimeout":10,"appWaitActivity":"com.snapfinance.snap.MainActivity"},"firstMatch":[{}]}]'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[BaseDriver] Event 'newSessionRequested' logged at 1638163328896 (10:52:08 GMT+0530 (India Standard Time))"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]   appWaitActivity'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[Appium] Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[Appium] Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver] Creating session with W3C capabilities: {'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]   "alwaysMatch": {'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]     "platformName": "Android",'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]     "appium:appWaitActivity": "com.snapfinance.snap.MainActivity",'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]     "appium:deviceName": "Pixel_3a",'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]     "appium:platformVersion": "11",'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]     "appium:orientation": "PORTRAIT",'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]     "appium:automationName": "UiAutomator2",'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]     "appium:app": "/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/apps/app-release.apk",'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]     "appium:noReset": true,'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]     "appium:fullReset": false,'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]     "appium:dontStopAppOnReset": true,'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]     "appium:newCommandTimeout": 10'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]   },'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]   "firstMatch": ['
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]     {}'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver]   ]'
+  },
+  { timestamp: 1638163438387, level: 'ALL', message: '[BaseDriver] }' },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[BaseDriver] Session created with session id: 6062ef6c-48a2-4e6e-ad8a-45b68faa04c5'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[BaseDriver] Using local app '/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/apps/app-release.apk'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[UiAutomator2] Checking whether app is actually present'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Found 3 'build-tools' folders under '/Users/htikkas/Library/Android/sdk' (newest first):"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB]     /Users/htikkas/Library/Android/sdk/build-tools/31.0.0-rc5'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB]     /Users/htikkas/Library/Android/sdk/build-tools/30.0.3'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB]     /Users/htikkas/Library/Android/sdk/build-tools/30.0.2'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Using 'adb' from '/Users/htikkas/Library/Android/sdk/platform-tools/adb'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 start-server'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[AndroidDriver] Retrieving device list'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB] Trying to find a connected android device'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB] Getting connected devices'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[AndroidDriver] Looking for a device with Android '11.0.0'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB] Setting device id to emulator-5554'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB] Getting device platform version'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Current device property 'ro.build.version.release': 11"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[AndroidDriver] Using device: emulator-5554'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Using 'adb' from '/Users/htikkas/Library/Android/sdk/platform-tools/adb'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 start-server'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB] Setting device id to emulator-5554'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Current device property 'ro.build.version.sdk': 30"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB] Getting device platform version'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Current device property 'ro.build.version.release': 11"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB] Device API level: 30'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[UiAutomator2] Relaxing hidden api policy'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[AndroidDriver] Parsing package and activity from app manifest'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Package name: 'com.snapfinance.snap'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Main activity name: 'com.snapfinance.snap.MainActivity'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[AndroidDriver] Parsed package and activity are: com.snapfinance.snap/com.snapfinance.snap.MainActivity'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[AndroidDriver] Pushing settings apk to device...'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB] Getting install status for io.appium.settings'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] 'io.appium.settings' is installed"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Getting package info for 'io.appium.settings'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] The installed 'io.appium.settings' package is older than '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk' (19 < 29 or '2.14.2' < '3.3.0')'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Executing upgrade of '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 help'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 features'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] The application at '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 install -r -g /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] The installation of 'settings_apk-debug.apk' took 558ms"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB] Install command stdout: Performing Streamed Install'
+  },
+  { timestamp: 1638163438387, level: 'ALL', message: '[ADB] Success' },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Getting IDs of all 'io.appium.settings' processes"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \\(\\[\\[:blank:\\]\\]\\|\\^\\)io\\.appium\\.settings\\(\\[\\[:blank:\\]\\]\\|\\$\\)'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Getting IDs of all 'io.appium.settings' processes"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \\(\\[\\[:blank:\\]\\]\\|\\^\\)io\\.appium\\.settings\\(\\[\\[:blank:\\]\\]\\|\\$\\)'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[ADB] Starting Appium Settings app'
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Getting IDs of all 'io.appium.settings' processes"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \\(\\[\\[:blank:\\]\\]\\|\\^\\)io\\.appium\\.settings\\(\\[\\[:blank:\\]\\]\\|\\$\\)'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Getting IDs of all 'io.appium.settings' processes"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \\(\\[\\[:blank:\\]\\]\\|\\^\\)io\\.appium\\.settings\\(\\[\\[:blank:\\]\\]\\|\\$\\)'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Getting IDs of all 'io.appium.settings' processes"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: "[ADB] Running '/Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \\(\\[\\[:blank:\\]\\]\\|\\^\\)io\\.appium\\.settings\\(\\[\\[:blank:\\]\\]\\|\\$\\)'"
+  },
+  {
+    timestamp: 1638163438387,
+    level: 'ALL',
+    message: '[Logcat] Starting logs capture with command: /Users/htikkas/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime'
+  },
+  ... 2356 more items
+]
+2021-11-29T05:24:08.433Z DEBUG webdriver: request failed due to response error: unknown error
+2021-11-29T05:24:08.433Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: New Command Timeout of 10 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability
+2021-11-29T05:24:08.433Z INFO webdriver: Retrying 1/3
+2021-11-29T05:24:08.434Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/log
+2021-11-29T05:24:08.434Z INFO webdriver: DATA { type: 'bugreport' }
+2021-11-29T05:24:08.445Z DEBUG webdriver: request failed due to response error: invalid session id
+2021-11-29T05:24:08.445Z WARN webdriver: Request failed due to A session is either terminated or not started
+2021-11-29T05:24:08.445Z INFO webdriver: Retrying 2/3
+2021-11-29T05:24:08.445Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/log
+2021-11-29T05:24:08.445Z INFO webdriver: DATA { type: 'bugreport' }
+2021-11-29T05:24:08.450Z DEBUG webdriver: request failed due to response error: invalid session id
+2021-11-29T05:24:08.450Z WARN webdriver: Request failed due to A session is either terminated or not started
+2021-11-29T05:24:08.450Z INFO webdriver: Retrying 3/3
+2021-11-29T05:24:08.450Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d/log
+2021-11-29T05:24:08.450Z INFO webdriver: DATA { type: 'bugreport' }
+2021-11-29T05:24:08.466Z DEBUG webdriver: request failed due to response error: invalid session id
+2021-11-29T05:24:08.466Z ERROR webdriver: Request failed due to invalid session id: A session is either terminated or not started
+    at getErrorFromResponseBody (/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/node_modules/@wdio/runner/node_modules/webdriver/build/utils.js:124:10)
+    at Request._callback (/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/node_modules/@wdio/runner/node_modules/webdriver/build/request.js:110:64)
+    at Request.self.callback (/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:467:12)
+    at Request.<anonymous> (/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:467:12)
+    at IncomingMessage.<anonymous> (/Users/htikkas/Desktop/SF/mobile-cucumber-appium-webdriverio/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+2021-11-29T05:24:08.474Z WARN @wdio/runner: Couldn't fetch logs for bugreport: A session is either terminated or not started
+2021-11-29T05:24:08.474Z INFO webdriver: COMMAND deleteSession()
+2021-11-29T05:24:08.474Z INFO webdriver: [DELETE] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d
+2021-11-29T05:24:08.484Z DEBUG webdriver: request failed due to response error: invalid session id
+2021-11-29T05:24:08.485Z WARN webdriver: Request failed due to A session is either terminated or not started
+2021-11-29T05:24:08.485Z INFO webdriver: Retrying 1/3
+2021-11-29T05:24:08.485Z INFO webdriver: [DELETE] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d
+2021-11-29T05:24:08.492Z DEBUG webdriver: request failed due to response error: invalid session id
+2021-11-29T05:24:08.492Z WARN webdriver: Request failed due to A session is either terminated or not started
+2021-11-29T05:24:08.492Z INFO webdriver: Retrying 2/3
+2021-11-29T05:24:08.492Z INFO webdriver: [DELETE] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d
+2021-11-29T05:24:08.496Z DEBUG webdriver: request failed due to response error: invalid session id
+2021-11-29T05:24:08.496Z WARN webdriver: Request failed due to A session is either terminated or not started
+2021-11-29T05:24:08.496Z INFO webdriver: Retrying 3/3
+2021-11-29T05:24:08.496Z INFO webdriver: [DELETE] http://127.0.0.1:4723/wd/hub/session/6e47e77f-930c-4157-b1ad-c308c3f63d4d
+2021-11-29T05:24:08.500Z DEBUG webdriver: request failed due to response error: invalid session id

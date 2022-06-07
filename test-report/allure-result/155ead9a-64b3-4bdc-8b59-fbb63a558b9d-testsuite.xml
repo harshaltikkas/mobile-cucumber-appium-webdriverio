@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634213786277' stop='1634213806229'>
+    <name>Login validations &amp; Forgot password</name>
+    <title>Login validations &amp; Forgot password</title>
+    <test-cases>
+        <test-case start='1634213786287' status='passed' stop='1634213794073'>
+            <name>Displays Inline error message when clicking on Continue button without entering credentials</name>
+            <title>Displays Inline error message when clicking on Continue button without entering credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1634213786290' status='passed' stop='1634213792521'>
+                    <name>Given I am on the username screen</name>
+                    <title>Given I am on the username screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634213792521' status='passed' stop='1634213793629'>
+                    <name>When I click on 'Continue' button</name>
+                    <title>When I click on 'Continue' button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634213793630' status='passed' stop='1634213794071'>
+                    <name>Then app should displays 'This field is required' inline error message</name>
+                    <title>Then app should displays 'This field is required' inline error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1634213794073' status='passed' stop='1634213806228'>
+            <name>Displays app dashboard, when entering valid credentials</name>
+            <title>Displays app dashboard, when entering valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1634213794074' status='passed' stop='1634213800225'>
+                    <name>Given I am on the username screen</name>
+                    <title>Given I am on the username screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634213800225' status='passed' stop='1634213801126'>
+                    <name>When I entered 'htikkas' in username field</name>
+                    <title>When I entered 'htikkas' in username field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634213801126' status='passed' stop='1634213802530'>
+                    <name>And I click on 'Continue' button</name>
+                    <title>And I click on 'Continue' button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634213802530' status='passed' stop='1634213803328'>
+                    <name>And I entered 'Snap@123' in password field</name>
+                    <title>And I entered 'Snap@123' in password field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634213803328' status='passed' stop='1634213804830'>
+                    <name>And I click on 'Sign in' button</name>
+                    <title>And I click on 'Sign in' button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634213804830' status='passed' stop='1634213806227'>
+                    <name>Then app should displays 'Hello htikkas' on dashboard</name>
+                    <title>Then app should displays 'Hello htikkas' on dashboard</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
