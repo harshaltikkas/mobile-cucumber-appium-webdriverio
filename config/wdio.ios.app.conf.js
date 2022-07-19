@@ -28,14 +28,13 @@ config.capabilities = [
         // The path to the app
         'appium:app': join(
             process.cwd(),
-           // './apps/iOS-Simulator-NativeDemoApp-0.2.1.app.zip'
-           './apps/Snapp.ipa'
+            './apps/iOS-Simulator-NativeDemoApp-0.2.1.app'
         ),
         // Read the reset strategies very well, they differ per platform, see
         // http://appium.io/docs/en/writing-running-appium/other/reset-strategies/
         'appium:noReset': true,
         'appium:newCommandTimeout': 10,//240
-        'bundleId':'com.snapfinance.snap'
+        'bundleId':'com.projectfinance.project'
     },
 ];
 

@@ -19,7 +19,7 @@ exports.config = {
   waitforTimeout: 6000,
   connectionRetryTimeout: 90000,
   connectionRetryCount: 3,
-  specs: ['./tests/features/**/Snap_Login.feature'],
+  specs: ['./tests/features/**/*.feature'],
   reporters: [
     'spec',
     [
@@ -69,52 +69,50 @@ exports.config = {
   // Some hooks
   // ====================
 
-  // before() {
-  //   /**
-  //    * Setup the Chai assertion framework
-  //    */
-  //   const chai = require("chai")
-  //   global.expect = chai.expect
-  //   global.assert = chai.assert
-  //   global.should = chai.should()
-  // },
+  before() {
+    /**
+     * Setup the Chai assertion framework
+     */
+    const chai = require("chai")
+    global.expect = chai.expect
+    global.assert = chai.assert
+    global.should = chai.should()
+  },
   //This code is responsible for taking the screenshot in case of error and attaching it to the report
   afterStep(uri, feature, scenario) {
     if (scenario.error) {
       driver.takeScreenshot();
     }
   },
-  // afterStep: function (stepResult) {
-  //     const path = require("path")
-  //     const moment = require("moment")
-  //     const timestamp = moment().format("YYYYMMDD-HHmmss")
-  //     const filepath = path.join(
-  //       "tests/e2e/reports/html-reports/screenshots/",
-  //       `${timestamp}.png`
-  //     )
-  //     browser.saveScreenshot(filepath)
-  //     process.emit("test:screenshot", filepath)
-  //   },
+  afterStep: function (stepResult) {
+    const path = require("path")
+    const moment = require("moment")
+    const timestamp = moment().format("YYYYMMDD-HHmmss")
+    const filepath = path.join(
+      "tests/reports/html-reports/screenshots/",
+      `${timestamp}.png`
+    )
+    browser.saveScreenshot(filepath)
+    process.emit("test:screenshot", filepath)
+  },
 
-  //   onPrepare: function (config, capabilities) {
-  //      reportAggregator = new ReportAggregator({
-  //       outputDir: "./tests/e2e/reports/html-reports/",
-  //       filename: "master-report.html",
-  //       reportTitle: "Master Report",
-  //       browserName:'Chrome',
-  //       collapseTests: true,
-  //     });
-  //     reportAggregator.clean();
+  onPrepare: function (config, capabilities) {
+    reportAggregator = new ReportAggregator({
+      outputDir: "./tests/reports/html-reports/",
+      filename: "master-report.html",
+      reportTitle: "Master Report",
+      browserName: 'Chrome',
+      collapseTests: true,
+    });
+    reportAggregator.clean();
 
-  //    reportAggregator = reportAggregator;
-  //   },
+    reportAggregator = reportAggregator;
+  },
 
-  //   onComplete: function(exitCode, config, capabilities, results) {
-  //     (async () => {
-  //         await reportAggregator.createReport();
-  //     })();
-  // },
-
-  
+  onComplete: function (exitCode, config, capabilities, results) {
+    (async () => {
+      await reportAggregator.createReport();
+    })();
+  },
 
 };

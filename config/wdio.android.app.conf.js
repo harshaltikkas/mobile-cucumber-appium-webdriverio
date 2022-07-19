@@ -40,7 +40,7 @@ config.capabilities = [
         'appium:dontStopAppOnReset': true,
         'appium:newCommandTimeout': 10,
         "appWaitActivity": "com.wdiodemoapp.MainActivity",
-        //"appWaitActivity": "com.snapfinance.snap.MainActivity"
+        //"appWaitActivity": "com.projectfinance.project.MainActivity"
     },
 ];
 

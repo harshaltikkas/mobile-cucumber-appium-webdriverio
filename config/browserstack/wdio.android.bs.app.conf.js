@@ -4,8 +4,7 @@ const { config } = require('../wdio.shared.conf');
 // Specs
 // ============
 config.specs = [
-    //'./tests/specs/**/app*.spec.js',
-    './tests/features/**/Snap_Login.feature'
+    './tests/features/**/*.feature'
 ];
 
 config.exclude = [
@@ -31,9 +30,9 @@ config.capabilities = [
         os_version: '9.0',
 
         // Set other BrowserStack capabilities
-        project: 'Snap Finance',
+        project: 'Project Finance',
         build: 'android',
-        name: 'Snap-Login'
+        name: 'Project-Login'
     },
 ];
 
